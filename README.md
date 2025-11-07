@@ -10,11 +10,11 @@ gcc-14 -O3 -mcpu=native -fopenmp src/barnes_hut_openmp.c -o barnes_hut_openmp -l
 
 example: ./barnes_hut_openmp 2000 input_data/ellipse_N_02000.gal 80 0.0000125 0 8
 
-galsim: compiled program
-N: Number of stars/particles
-nsteps: number of time steps
-delta_t: timestep
-n_threads: number of threads to use
+- galsim: compiled program
+- N: Number of stars/particles
+- nsteps: number of time steps
+- delta_t: timestep
+- n_threads: number of threads to use
 
 Note: Input .gal files re not included in this repository. The code expects binary files in that format.
 
@@ -32,5 +32,5 @@ For N = 10000 particles on my multi-core CPU (M3, Apple MacbookAir), the OpenMP 
 
 ## Versions
 
-- 'barnes_hut_basic': serial Barnes–Hut + velocity Verlet
-- 'barnes_hut_openmp': OpenMP parallelized 
+- barnes_hut_basic: serial Barnes–Hut + velocity Verlet
+- barnes_hut_openmp: OpenMP parallelized 
