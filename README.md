@@ -16,6 +16,8 @@ nsteps: number of time steps
 delta_t: timestep
 n_threads: number of threads to use
 
+Note: Input .gal filea re not included in this repository. The code expects binary files in that format.
+
 ## Comparison to reference solution
 
 Reference solution
