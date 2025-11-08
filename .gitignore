@@ -1,0 +1,23 @@
+.DS_Store
+
+# build artifacts / binaries
+barnes_hut_basic
+barnes_hut_openmp
+barnes_hut
+*.o
+*.out
+*.exe
+
+# generated simulation output
+result.gal
+
+# typical build dirs
+/build/
+/bin/
+/obj/
+/dist/
+
+# editor stuff
+.vscode/
+.idea/
+*.swp
